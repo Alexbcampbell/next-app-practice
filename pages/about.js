@@ -4,7 +4,7 @@ const about = () => {
     return(
         <div>
             <Head>
-                <title>PRODJEX DASHBOARD</title>
+                <title>About</title>
                 <meta name='keywords' content='support, web dev'/>
             </Head>
 

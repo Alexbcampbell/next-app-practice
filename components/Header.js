@@ -4,18 +4,12 @@ import headerStyles from '../styles/Header.module.css'
 const Header = () => {
     return(
        <div>
-           <h1 className='title'>
+           <h1 className={headerStyles.title}>
                <span>SUPPORT</span> DASHBOARD
            </h1>
-           <style jsx>
-               {`
-               .title {
-                   color: red
-               }
-               `
-                   
-               }
-           </style>
+           <p className={headerStyles.description}>
+        Invoice Number: 
+      </p>
        </div>
     )
 }

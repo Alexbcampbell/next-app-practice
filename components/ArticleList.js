@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import ArticleItem from './ArticleItem'
 import articleStyles from '../styles/Article.module.css'
 

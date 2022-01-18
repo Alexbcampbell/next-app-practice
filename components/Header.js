@@ -5,10 +5,9 @@ const Header = () => {
     return(
        <div>
            <h1 className={headerStyles.title}>
-               <span>SUPPORT</span> DASHBOARD
+               <span>Article</span> Dashboard
            </h1>
-           <p className={headerStyles.description}>
-        Invoice Number: 
+           <p className={headerStyles.description}> 
       </p>
        </div>
     )
